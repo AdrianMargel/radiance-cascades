@@ -1,0 +1,86 @@
+html{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #28282E;
+	color: white;
+}
+::selection {
+  background: #97F28060;
+}
+
+text-input{
+	display: block;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+input{
+	border-radius: 8px;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	border: 2px solid #525259;
+	background-color: #333336;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+input:focus{
+	outline: none;
+}
+input:focus + .focused{
+	padding: 4px;
+	border-right: 2px solid #525259;
+	border-bottom: 2px solid #525259;
+	position: absolute;
+	top: calc(50% - 6px);
+	left: -18px;
+	transform: rotate(-45deg);
+}
+a{
+	color: #7AC16C;
+	text-decoration: none;
+}
+a:hover{
+	color: #7AC16C;
+	text-decoration: underline;
+}
+a:active{
+	color: #7AC16C;
+}
+a:visited{
+	color: #7AC16C;
+}
+.link{
+	color: #7AC16C;
+	cursor: pointer;
+}
+.link:hover{
+	text-decoration: underline;
+}
+.centered{
+	text-align: center;
+}
+button{
+	border-radius: 8px;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	padding: 5px 10px;
+}
+button:focus{
+	outline: none;
+}
+
+h2{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+p{
+	font-size: 20px;
+	margin: 15px 0;
+	line-height: 1.4;
+}
